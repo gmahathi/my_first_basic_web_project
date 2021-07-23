@@ -1,8 +1,49 @@
 <html>
 	<head>
-		<title>My first web application</title>
+                                   <link rel="stylesheet" href="my_first_stylesheet.css">
+		<img src="https://scontent.ftir1-2.fna.fbcdn.net/v/t1.6435-9/49781261_375084293267371_1383684986409844736_n.png?_nc_cat=106&ccb=1-3&_nc_sid=973b4a&_nc_ohc=Vo08oUUSnsQAX8ynv-I&_nc_ht=scontent.ftir1-2.fna&oh=794a9b9c9f620f6ddce1c2003d2bd97b&oe=60FDB644" alt="10000coders logo" class="center" width=100>
+		<title>10000 Coders Assignment2</title>
 	</head>
 	<body>
-		<h1>welcome to my the first web application</h1>
+                                   <h2>Welcome to 10000 Coders Programming Challenge</h2>
+		<p id="one">Hello guys,</p>
+                                   <p id="one">Welcome to the HTML/CSS programming exercise by 10000 Coders.This will test your basics in HTML and CSS.You need to recreate the document you are reading now using HTML/CSS.<u>Make sure that the page looks exactly like this document.</u></p>
+                                   <h3>General Instructions</h3>
+                                   <ol>
+                                           <li>There will be a 15px margin between all the elements in the form shown below</li>
+                                           <li>Use external CSS for styling</li>
+                                           <li>This execise will cover the following constructs of HTML</li>
+                                                  <ul>
+                                           	      <li>HTML Form</li>
+                                           	      <li>Text inputs with placeholders</li>
+                                           	      <li>Text area</li>
+                                           	      <li>Password input</li>
+                                           	      <li>Select drop-down box</li>
+                                           	      <li>Radio buttons</li>
+                                           	      <li>Check boxes and</li>
+                                                           <li>Buttons</li>
+                                   	              </ul>
+                                   </ol>
+                                   <p id="two"><b>So,let's get started.All the best !</b></p>
+                                   <form name="form1" action="#" onclick="required()" > 
+                                   		<div id="fullname"><b><label for="fname">Full Name&emsp;</label></b><input type="text" placeholder="Enter your first name" name="fname" size="100"/></div><br>
+                                   		<div><b><label for="spin">Secret Pin&emsp;</label></b><input type="password" placeholder="Enter your secret pin" name="spin" size="100"/></div><br>
+                                   		<div><b>Gender&emsp;</b><input type="radio" id="male" name="male" value="Male"/><label for="male">Male</label><input type="radio" id="female" name="female" value="Female"/><label for="female">Female</label></div><br>
+                                   		<div><b>I am an expert in&emsp;</b><input type="checkbox" id="html" name="expert" value="HTML"/><label for="html">HTML</label><input type="checkbox" id="css" name="expert" value="CSS"/><label for="css">CSS</label></div><br>
+                                   		<div><b>My field of study is &emsp;</b><select name="field" required><br>
+                                                                                    		<option value="" disabled selected hidden>Select your branch using this select dropdown</option><br>
+                                                                                        	<option value="CSE">CSE</option><br />
+                          					<option value="ECE">ECE</option><br />
+						<option value="EEE">EEE</option><br />
+						<option value="Civil">CIVIL</option><br />
+						<option value="Mech">MECH</option><br />
+						<option value="Others">OTHERS</option><br />
+                                                                                                          </select></div><br/>
+                                                     <div><b>Tell more about yourself&emsp;</b>
+                                                     <textarea placeholder="This is text area.Enter your description." rows="4" cols="60" align="middle"></textarea></div><br /><br />
+                                    
+                                    	<div><input type="button" class="button" value="Submit Form"></div><br>
+                                                     
+                                    </form> 
 	</body>
 </html>
